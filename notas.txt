@@ -1,0 +1,28 @@
+1) git --version: para ver la version de git
+
+2) CONFIGURAR EL GIT:
+
+
+git config --global user.name "marcee94"
+
+git config --global user.email "alcalde_marcelo@hotmail.com"
+
+git config --global code.editor "code --wait" (para decirle que mi editor default es VSC, esto es opcional)
+
+git config --list (veo la lista de configuracion de mi git)
+
+3) TRABAJANDO CON GIT 
+git init: comando para inicializar git en nuestro proyecto
+
+-Comando para relacionar nuestro repositorio
+git remote add origin https://github.com/marcee94/Clase16Python.git
+
+-Revisamos el estado de nuestro proyecto
+git status
+
+-Comando para agregar a la lista de elemento a enviar a github
+git add "nombre del archivo"
+git add * // git add . (selecciona todo)
+
+-Comando para darle descripcion al cambio
+git commit -m "Mensaje descriptivo del cambio"
